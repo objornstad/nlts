@@ -1,0 +1,48 @@
+1.0-2: Fixed all plot functions added doi's
+
+1.0-1: roxyfied and Rstudio'd source code
+
+0.2-1:  ll.edm added
+
+0.2-0: package no longer requires akima
+
+0.1-9: lin.order.mle and tfn removed because of lisencing issues 
+
+0.1-8: predict.ll.order added
+       bug in default frequencies in spec.lomb fixed
+
+0.1-7: add.test reinstated because new lisencing of acepack
+
+0.1-6: was strippped of add.test because acepack was not properly
+    lisenced in late 2009
+
+0.1-5: Changed the man-pages to be complient with the more
+        intensive checking of R help files in R 2.8.
+
+0.1-4: CRAN compliance for man-pages, etc
+
+0.1-3: Updated to be compatible with 2.2 and locfit >1.5
+
+0.1-2: 	Recoded to comply with R version 2.1.0 (largely thanks to Pablo Almaraz)
+	Improved the ll.order function. Included function prediction.profile.ll
+	to calculate time series prediction profiles. (May 7, 2005).
+
+0.1-0: First propper R packaging (July 14, 2003)
+
+Previous (S-plus) Version History:
+
+March 21, 2001: The Help-files rewritten
+
+December 20, 2000: a minor error in print.spec.lomb and summary.spec.lomb was corrected 
+
+October 10, 2000: spec.lomb was added 
+
+July 20, 2000: the source code for the pascal programs are now distrbuted as part of the library 
+
+July 20, 2000: nlt was added 
+
+June 29, 2000: lin.test, add.test, and portman.Q added 
+
+June 13, 2000: Initial code uploaded 
+ 
+  
