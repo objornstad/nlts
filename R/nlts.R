@@ -3,7 +3,7 @@
 #' A function to estimate the contingency periodogram to test for periodicity in
 #' categorical time series.
 #' 
-#' This is the contingency periodogram of Pierre Legedre and Pierre Dutielle to
+#' This is the contingency periodogram of Pierre Legendre and Pierre Dutielle to
 #' test for periodicity in categorical time series. I have coded the function
 #' so as to provide both the Fisher exact test and the asymptotic chi-square
 #' test.
@@ -153,7 +153,7 @@ lin.order.cls <- function(x, order = 1:5, n.cond = 5, echo = TRUE){
 #' @param object an object of class "lin.order", usually, as a result of a call
 #' to \code{lin.order.cls} or \code{lin.order.mle}.
 #' @param \dots no other arguments currently allowed
-#' @return A slightly prettyfied version of the object is printed.
+#' @return A slightly prettified version of the object is printed.
 #' @seealso \code{\link{lin.order.cls}}
 #' @keywords ts
 #' @export
@@ -631,7 +631,7 @@ args.default <- list(ylab = "Predictability", xlab = "Time lag",
 ##############################################################################################
 #' Nonlinear forecasting of local polynomial `empirical dynamic model'.
 #' 
-#' A function to forcaste a local polynomial `empirical dynamic model'.
+#' A function to forecast a local polynomial `empirical dynamic model'.
 #' 
 #' The function produces a nonlinear (nonparametric) forecast using the
 #' conditional mean method of Fan et al (1996). A Gaussian kernel is used for
@@ -834,7 +834,7 @@ list(period=object$per.max,p.val=object$p)
 
 
 ##############################################################################################
-#' Lagrange multiplier test for additivity in a timeseries
+#' Lagrange multiplier test for additivity in a time series
 #' 
 #' add.test is a function to test the permissibility of the additive
 #' autoregressive model:
@@ -852,7 +852,7 @@ list(period=object$per.max,p.val=object$p)
 #' @param order a scalar representing the order to be considered.
 #' @param n.cond The number of observation to condition on.  The default is
 #' \code{order} (must be >= \code{order})
-#' @return a vector is returned consisting of the asymtpotic chi-square value,
+#' @return a vector is returned consisting of the asymptotic chi-square value,
 #' the associated d.f.  and asymptotic p.val for the test of additivity.
 #' @references Chen, R., Liu, J.S. & Tsay, R.S. (1995) Additivity tests for
 #' nonlinear autoregression. Biometrika, 82, 369-383. https://doi.org/10.1093/biomet/82.2.369
@@ -925,7 +925,7 @@ add.test<-function(x, order, n.cond = FALSE){
 #' 
 #' @param x A time series (vector without missing values).
 #' @param order a scalar representing the order to be considered.
-#' @return A vector is returned consisting of the asymtpotic F-value, the
+#' @return A vector is returned consisting of the asymptotic F-value, the
 #' associated numerator and denominator d.f.'s and asymptotic p.val for the
 #' test of linearity
 #' @references Tsay, R.S. (1986) Nonlinearity tests for time series.
@@ -972,15 +972,15 @@ lin.test <- function(x, order){
 ##############################################################################################
 #'  Ljung-Box test for whiteness in a time series.
 #' 
-#' portman.Q uses the cummulative ACF to test for whiteness of a time series.
+#' portman.Q uses the cumulative ACF to test for whiteness of a time series.
 #' 
-#' This is the Ljung-Box version of the the Portemanteau test for whiteness
-#' (Tong 1990). It may in particular be usefull to test for whiteness in the
+#' This is the Ljung-Box version of the the Portmanteau test for whiteness
+#' (Tong 1990). It may in particular be useful to test for whiteness in the
 #' residuals from time series models.
 #' 
 #' @param x A time series (vector without missing values).
 #' @param K the maximum lag of the ACF to be used in the test.
-#' @return A vector is returned consisting of the asymtpotic chi-square value,
+#' @return A vector is returned consisting of the asymptotic chi-square value,
 #' the associated d.f. and asymptotic p.val for the test of whiteness.
 #' @references Tong, H. (1990) Non-linear time series : a dynamical system
 #' approach. Clarendon Press, Oxford.
@@ -1024,7 +1024,7 @@ portman.Q <- function(x, K){
 #' 
 #' @param x A time series without missing values.
 #' @param order a scalar representing the order to be considered. If
-#' \code{"aic"} the orderis be selected automatically using the AIC criterion.
+#' \code{"aic"} the order is selected automatically using the AIC criterion.
 #' @param resamp the number of resamples of the ar-coefficients from the
 #' covariance matrix.
 #' @param nfreq the number of points at which to save the value for the power

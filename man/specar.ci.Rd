@@ -10,7 +10,7 @@ specar.ci(x, order, resamp = 500, nfreq = 100, echo = TRUE)
 \item{x}{A time series without missing values.}
 
 \item{order}{a scalar representing the order to be considered. If
-\code{"aic"} the orderis be selected automatically using the AIC criterion.}
+\code{"aic"} the order is selected automatically using the AIC criterion.}
 
 \item{resamp}{the number of resamples of the ar-coefficients from the
 covariance matrix.}

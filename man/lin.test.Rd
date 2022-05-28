@@ -12,7 +12,7 @@ lin.test(x, order)
 \item{order}{a scalar representing the order to be considered.}
 }
 \value{
-A vector is returned consisting of the asymtpotic F-value, the
+A vector is returned consisting of the asymptotic F-value, the
 associated numerator and denominator d.f.'s and asymptotic p.val for the
 test of linearity
 }

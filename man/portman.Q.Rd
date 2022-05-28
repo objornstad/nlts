@@ -12,15 +12,15 @@ portman.Q(x, K)
 \item{K}{the maximum lag of the ACF to be used in the test.}
 }
 \value{
-A vector is returned consisting of the asymtpotic chi-square value,
+A vector is returned consisting of the asymptotic chi-square value,
 the associated d.f. and asymptotic p.val for the test of whiteness.
 }
 \description{
-portman.Q uses the cummulative ACF to test for whiteness of a time series.
+portman.Q uses the cumulative ACF to test for whiteness of a time series.
 }
 \details{
-This is the Ljung-Box version of the the Portemanteau test for whiteness
-(Tong 1990). It may in particular be usefull to test for whiteness in the
+This is the Ljung-Box version of the the Portmanteau test for whiteness
+(Tong 1990). It may in particular be useful to test for whiteness in the
 residuals from time series models.
 }
 \examples{

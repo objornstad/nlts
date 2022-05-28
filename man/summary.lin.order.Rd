@@ -13,7 +13,7 @@ to \code{lin.order.cls} or \code{lin.order.mle}.}
 \item{\dots}{no other arguments currently allowed}
 }
 \value{
-A slightly prettyfied version of the object is printed.
+A slightly prettified version of the object is printed.
 }
 \description{
 `summary' method for class "lin.order".

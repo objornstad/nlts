@@ -25,7 +25,7 @@ A time series with the nonlinear (nonparametric) forecast is
 returned
 }
 \description{
-A function to forcaste a local polynomial `empirical dynamic model'.
+A function to forecast a local polynomial `empirical dynamic model'.
 }
 \details{
 The function produces a nonlinear (nonparametric) forecast using the

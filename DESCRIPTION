@@ -1,14 +1,14 @@
 Package: nlts
 Title: Nonlinear Time Series Analysis
-Date: 2018-10-11
+Date: 2020-01-25
 Authors@R: c(person(c("Ottar", "N."), "Bjornstad", role = c("aut", "cre"),
                      email = "onb1@psu.edu"))
 Author: Ottar N. Bjornstad [aut, cre]
 Maintainer: Ottar N. Bjornstad <onb1@psu.edu>
 Description: R functions for (non)linear time series analysis with an emphasis on nonparametric autoregression and order estimation, and tests for linearity / additivity.
-Version: 1.0-2
+Version: 1.0-3
 Depends: R (>= 2.2.0), locfit (>= 1.5.3), acepack
 NeedsCompilation: no
 URL: http://ento.psu.edu/directory/onb1
 License: GPL-3
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1

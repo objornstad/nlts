@@ -2,7 +2,7 @@
 % Please edit documentation in R/nlts.R
 \name{add.test}
 \alias{add.test}
-\title{Lagrange multiplier test for additivity in a timeseries}
+\title{Lagrange multiplier test for additivity in a time series}
 \usage{
 add.test(x, order, n.cond = FALSE)
 }
@@ -15,7 +15,7 @@ add.test(x, order, n.cond = FALSE)
 \code{order} (must be >= \code{order})}
 }
 \value{
-a vector is returned consisting of the asymtpotic chi-square value,
+a vector is returned consisting of the asymptotic chi-square value,
 the associated d.f.  and asymptotic p.val for the test of additivity.
 }
 \description{

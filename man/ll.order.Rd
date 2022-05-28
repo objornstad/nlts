@@ -5,8 +5,8 @@
 \title{Consistent nonlinear estimate of the order using local polynomial
 regression.}
 \usage{
-ll.order(x, order = 1:5, step = 1, deg = 2, bandwidth = c(seq(0.3, 1.5,
-  by = 0.1), 2:10), cv = TRUE, echo = TRUE)
+ll.order(x, order = 1:5, step = 1, deg = 2, bandwidth = c(seq(0.3,
+  1.5, by = 0.1), 2:10), cv = TRUE, echo = TRUE)
 }
 \arguments{
 \item{x}{A time series without missing values.}

@@ -25,7 +25,7 @@ A function to estimate the contingency periodogram to test for periodicity in
 categorical time series.
 }
 \details{
-This is the contingency periodogram of Pierre Legedre and Pierre Dutielle to
+This is the contingency periodogram of Pierre Legendre and Pierre Dutielle to
 test for periodicity in categorical time series. I have coded the function
 so as to provide both the Fisher exact test and the asymptotic chi-square
 test.

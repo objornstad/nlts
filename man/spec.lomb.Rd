@@ -4,7 +4,8 @@
 \alias{spec.lomb}
 \title{The Lomb periodogram for unevenly sampled data}
 \usage{
-spec.lomb(y = stop("no data arg"), x = stop("no time arg"), freq = NULL)
+spec.lomb(y = stop("no data arg"), x = stop("no time arg"),
+  freq = NULL)
 }
 \arguments{
 \item{y}{vector of length n representing the unevenly sampled time series.}
